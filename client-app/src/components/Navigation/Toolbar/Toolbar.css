@@ -1,0 +1,53 @@
+.Toolbar{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+/* .Toolbar nav{
+    height: 100%;
+} */
+.Logo {
+    padding-top: 0.6%;
+    width: 20%;
+    height: 97%;
+}
+.Nav{
+ width: 80%;
+ height: 50px;
+}
+.NavList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+.NavRight{
+    float: right;
+    height: 50px;
+}
+.NavLeft{
+    float: left;
+    height: 50px;
+}
+@media (max-width: 499px){
+    .Nav{
+        display: none;
+       }
+    .Logo{
+        padding-top: 2.5%;
+        width: 75%;
+        height: 97%;
+    }   
+}

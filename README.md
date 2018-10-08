@@ -1,4 +1,4 @@
-# API React/Redux App 
+# API-Client-App 
 
 ## How to  the App ###
 ```

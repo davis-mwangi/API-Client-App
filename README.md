@@ -1,6 +1,6 @@
 # API-Client-App 
 
-## How to  the App ###
+## How to run the App ###
 ```
 git clone  https://github.com/davis-mwangi/API-Client-App.git
 cd  API-Client-App
